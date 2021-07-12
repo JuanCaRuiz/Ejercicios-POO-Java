@@ -17,6 +17,11 @@ class Main {
     */
     /*
     //Ejercicio clase Ecuacion*/
-
+    Ecuacion e1 = new Ecuacion(1,2,5);
+    Ecuacion e2 = new Ecuacion(1,4,4);
+    Ecuacion e3 = new Ecuacion(1,2,-3);
+    e1.calcular();
+    e2.calcular();
+    e3.calcular();
   }
 }
